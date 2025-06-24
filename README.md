@@ -11,7 +11,7 @@ See the [pull requests](https://github.com/RaidcoreGG/api-cdi/pulls) for the cur
 ---
 
 ## Nexus
-tbd
+WIP
 
-## raidcore.gg
-tbd
+## api.raidcore.gg
+WIP
