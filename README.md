@@ -10,8 +10,8 @@ See the [pull requests](https://github.com/RaidcoreGG/api-cdi/pulls) for the cur
 
 ---
 
-## Nexus
+## [Nexus](Nexus)
 WIP
 
-## api.raidcore.gg
+## [api.raidcore.gg](api.raidcore.gg)
 WIP
