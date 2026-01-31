@@ -1,4 +1,4 @@
-\page keybinds Keybinds
+\page keybinds Keybinding Tutorial
 
 Nexus provides an API allowing addon developers to register keybinds, instead of requiring you to implement your own `WndProc` handler.  
 To implement a keybind, create a callback that handles routing your keybind events to your own custom handlers and register it with Nexus.
