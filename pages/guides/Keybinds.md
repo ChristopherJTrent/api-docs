@@ -6,7 +6,7 @@ To implement a keybind, create a callback that handles routing your keybind even
 ### Registering Keybinds
 There are two methods of registering a keybind in nexus, which differ by how they represent the default binding.  
 `AddonAPI_t::InputBinds_RegisterWithString` accepts a string to define the default binding.  
-`AddonAPI_t::InputBinds_RegisterWithStruct` accepts a [`Keybind_t`](@ref Keybind_t) to define the default binding.  
+`AddonAPI_t::InputBinds_RegisterWithStruct` accepts a `Keybind_t` to define the default binding.  
 ```cpp
 #define KEYBIND_STRING "KB_MYKEYBIND_STRING"
 #define KEYBIND_STRUCT "KB_MYKEYBIND_STRUCT" 
