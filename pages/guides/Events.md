@@ -53,7 +53,8 @@ An example of raising an event is provided below.
 // ...
 #define EXAMPLE_EVENT_IDENTIFIER "EV_EXAMPLEADDON_EXAMPLE"
 void RaiseExampleEvent() {
-	Addon_API->Events_Raise(EXAMPLE_EVENT_IDENTIFIER, (void*)"This is an example event");
+	const wchar_t* message = "This is an example event";
+	Addon_API->Events_Raise(EXAMPLE_EVENT_IDENTIFIER, (void*)message);
 	Addon_API->Events_RaiseNotification(EXAMPLE_EVENT_IDENTIFIER);
 }
 ```
